@@ -15,6 +15,7 @@ class CSSElement(object):
 
     driver = None
 
+
     def __init__(self, css: str, index: int = 0, describe: str = ""):
         self.css = css
         self.index = str(index)

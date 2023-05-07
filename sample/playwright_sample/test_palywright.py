@@ -18,5 +18,6 @@ def test_playwright(page):
     bing_page.search_icon.screenshot(path="./image/search_icon.png")
     bing_page.search_icon.click()
 
+
     # 断言URL
     expect(page).to_have_title(re.compile("playwright"))

@@ -1,6 +1,7 @@
 from poium.settings import Setting
 
 
+
 def insert_assert(describe, result):
     """
     Insert assertion data

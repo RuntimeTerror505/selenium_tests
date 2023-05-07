@@ -5,6 +5,7 @@
 ```python
 from poium import Page, CSSElement
 
+
 class BaiduIndexPage(Page):
     elem = CSSElement('#kw')
     elem2 = CSSElement('#su')

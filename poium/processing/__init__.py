@@ -16,6 +16,7 @@ def compress_image(infile):
     im.save(infile, quality=5)
 
 
+
 def screenshots_name(describe=None):
     """
     生成截图的名称

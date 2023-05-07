@@ -6,6 +6,7 @@ from poium import config
 
 class Logger:
 
+
     def __init__(self, level: str = "DEBUG", colorlog: bool = True):
         self.logger = logger
         self._colorlog = colorlog

@@ -7,6 +7,7 @@ from poium import Page, Element
 from appium import webdriver
 
 
+
 # page层定义
 class CalculatorPage(Page):
     number_1 = Element(id_="com.android.calculator2:id/digit_1")

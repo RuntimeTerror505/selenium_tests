@@ -7,6 +7,7 @@
 你可以将poium与任何Python单元测试框架(unittest、pytest)结合使用.
 
 
+
 #### 1、简单的例子。
 创建一个简单的LoginPage，并使用LoginPage完成登录。这里会用到```Page```和 ```PageElement```
 

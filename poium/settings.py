@@ -14,6 +14,7 @@ class Setting:
     # 打开APP的包名
     apk_name = ""
 
+
     # 默认点击截图开关
     click_screenshots = True
 

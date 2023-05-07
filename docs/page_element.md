@@ -6,6 +6,7 @@
 # page层封装
 from poium import Page, Element
 
+
 class BaiduPage(Page):
     input = Element(id_="kw", describe="搜索输入框")
     button = Element(id_="su", describe="搜索按钮")

@@ -17,6 +17,7 @@ from poium.config import Browser
 from poium import config
 
 
+
 # Map PageElement constructor arguments to webdriver locator enums
 LOCATOR_LIST = {
     # selenium

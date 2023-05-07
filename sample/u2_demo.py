@@ -15,6 +15,7 @@ class BBSPage(Page):
 
 
 
+
 d = u2.connect()
 d.app_start("com.meizu.flyme.flymebbs")
 page = BBSPage(d)

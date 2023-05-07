@@ -11,6 +11,7 @@ from poium.selenium import BasePage
 from poium.common.keyboard import KeyEvent
 
 
+
 class Page(BasePage):
     """
     Implement the APIs with javascript,

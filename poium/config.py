@@ -10,5 +10,6 @@ class Browser:
     # Default playwright page driver
     page = None
 
+
     # Adds a border to the action element of the operation
     show = True

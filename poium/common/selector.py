@@ -7,6 +7,7 @@ def selection_checker(selector: str) -> (str, str):
     :param selector:
     :return:
     """
+
     if selector.startswith("text=") and len(selector) > 5:
         # link_text
         k = By.LINK_TEXT

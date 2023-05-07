@@ -10,6 +10,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 from poium import Page, Element, Elements
 
+
 @pytest.fixture()
 def webdriver():
     return mock.Mock(spec=WebDriver)

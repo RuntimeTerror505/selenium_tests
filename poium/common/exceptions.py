@@ -3,6 +3,7 @@ Exceptions that may happen in all the poium code.
 """
 
 
+
 class PoiumException(Exception):
     """
     Base poium exception.

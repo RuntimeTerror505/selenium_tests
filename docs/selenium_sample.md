@@ -7,6 +7,7 @@ from time import sleep
 from selenium import webdriver
 from poium import Page, Element, Elements
 
+
 # page层定义
 class BaiduPage(Page):
     input = Element(id_="kw", describe="搜索输入框")

@@ -9,6 +9,7 @@ from playwright.sync_api import expect
 from poium.playwright import Page, Locator
 
 
+
 class SearchPage(Page):
     search_input = Locator('id=sb_form_q', describe="搜索")
     search_icon = Locator('id=search_icon', describe="按钮")

@@ -18,7 +18,6 @@ def webdriver():
 
 class TestConstructor:
 
-
     def test_page_element(self):
         elem_id = Element(id_='id')
         elem_name = Element(name='name')

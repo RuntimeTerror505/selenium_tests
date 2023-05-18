@@ -1,1 +1,1 @@
-Different Selenium tests
+ Selenium tests
